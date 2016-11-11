@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="br.fib.Climatempo" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Clima Tempo</name>
+    <description>
+        A sample Apache Cordova application that responds to the deviceready event.
+    </description>
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+        Apache Cordova Team
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <cidade>
+        <nome>Bauru</nome>
+        <uf>SP</uf>
+        <atualizacao>2016-11-11</atualizacao>
+        <previsao>
+            <dia>2016-11-12</dia>
+            <tempo>pc</tempo>
+            <maxima>27</maxima>
+            <minima>21</minima>
+            <iuv>13.0</iuv>
+        </previsao>
+        <previsao>
+            <dia>2016-11-13</dia>
+            <tempo>np</tempo>
+            <maxima>25</maxima>
+            <minima>18</minima>
+            <iuv>13.0</iuv>
+        </previsao>
+        <previsao>
+            <dia>2016-11-14</dia>
+            <tempo>c</tempo>
+            <maxima>28</maxima>
+            <minima>20</minima>
+            <iuv>14.0</iuv>
+        </previsao>
+        <previsao>
+            <dia>2016-11-15</dia>
+            <tempo>ci</tempo>
+            <maxima>31</maxima>
+            <minima>17</minima>
+            <iuv>14.0</iuv>
+        </previsao>
+    </cidade>
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+    <plugin name="cordova-plugin-whitelist" spec="~1.3.0" />
+</widget>
